@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Snack Bite</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul class="nav-list">
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">PROJECTS</a></li>
+      <li><a href="#">CONTACT</a></li>
+      <li id="cart-count">CART(0)</li>
+      <li id="cart-total">$0</li>
+      <li><button id="checkout-btn" style="display:none;">Checkout</button></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Snack Bite</h1>
+  <p>Everything Tasty, all in one place.</p>
+  <a href="#" class="btn">Shop Now</a>
+</section>
+
+<section class="products">
+  <div class="grid">
+    <div class="product">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2p2FbrZqyTlIZEKA6Em2QLXhGxbrSRRme-I2G7I9Wig&s=10" alt="chocolate" width="100">
+      <h3>KitKat</h3>
+      <p>price: $2</p>
+      <button class="add-btn" data-price="2">Add To Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa0FGP8dsLB1VXB0oui1ZWHELHGeuhWteyJFDMtp6DYA&s=10" alt="chips" width="100">
+      <h3>Pringles</h3>
+      <p>price: $5</p>
+      <button class="add-btn" data-price="5">Add To Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeZqGlw90x6i3ZwGg5qherop1xDUYi_Yo8Wao70U_b8g&s" alt="bottle" width="100">
+      <h3>Tupperware</h3>
+      <p>price: $10</p>
+      <button class="add-btn" data-price="10">Add To Cart</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy;2026 SNACK BITE</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
